@@ -95,7 +95,7 @@ $bannerImg: "/assets/user/images/hero/banner.webp";
       visibility: visible;
     }
     .active a {
-      color: map.get($theme-colors, "main");
+      color: black;
     }
     .header_menu_dropdown {
       background: black;
@@ -162,7 +162,7 @@ $bannerImg: "/assets/user/images/hero/banner.webp";
 
 .hero_categories {
   position: relative;
-
+  background-color: rgb(245, 244, 244);
   .hero_categories_all {
     background: map.get($theme-colors, "main");
     padding: 15px 25px 15px 40px;

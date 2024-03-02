@@ -21,11 +21,11 @@ const Header = () => {
     },
     {
       name: "cửa hàng",
-      path: ROUTERS.USER.PRODUCTS,
+      path: ROUTERS.USER.PROFILE,
     },
     {
       name: "sản phẩm",
-      path: "",
+      path: ROUTERS.USER.HOME,
       isShowSubmenu: false,
       child: [
         {
@@ -48,11 +48,11 @@ const Header = () => {
     },
     {
       name: "bài viết",
-      path: "",
+      path: ROUTERS.USER.POSTER,
     },
     {
       name: "liên hệ",
-      path: "",
+      path: ROUTERS.USER.CONTACT,
     },
   ]);
 
@@ -140,9 +140,7 @@ const Header = () => {
           {/* menu */}
           <div className="col-xl-3 ">
             <div className="header_cart">
-              <div className="header_cart_price">
-                <span>1000$</span>
-              </div>
+              <div className="header_cart_price"></div>
               <ul>
                 <li>
                   <Link to="#">
@@ -174,7 +172,7 @@ const Header = () => {
                 <Link to="#">Giày nike</Link>
               </li>
               <li>
-                <Link to="#">Giày converser</Link>
+                <Link to="#">Giày conveser</Link>
               </li>
               <li>
                 <Link to="#">Giày adidas</Link>
@@ -185,7 +183,7 @@ const Header = () => {
             <div className="hero_search">
               <div className="hero_search_form">
                 <form>
-                  <input type="text" value="" placeholder="bạn đang tìm gì?" />
+                  <input type="text" value="" placeholder="Bạn đang tìm gì?" />
                   <button type="submit">Tìm kiếm</button>
                 </form>
               </div>

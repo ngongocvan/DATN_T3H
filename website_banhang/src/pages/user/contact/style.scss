@@ -1,0 +1,57 @@
+.poster {
+  display: flex;
+}
+.contact_left {
+  padding-top: 20px;
+  h3 {
+    margin-top: 20px;
+  }
+  p {
+    margin-top: 15px;
+    font-weight: 700;
+  }
+}
+.contact_right {
+  margin-top: 30px;
+  margin-left: 20px;
+  .contact_right_input {
+    textarea {
+      width: 500px;
+      height: 80px;
+      margin-top: 20px;
+
+      &::placeholder {
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+    }
+    input {
+      width: 500px;
+      height: 60px;
+    }
+    .contact_right_input_child {
+      display: flex;
+      margin-top: 15px;
+
+      input {
+        width: 220px;
+        height: 40px;
+        margin-right: 15px;
+      }
+    }
+  }
+  .contact_right_button {
+    display: flex;
+    margin-top: 20px;
+
+    button {
+      width: 200px;
+      height: 60px;
+      margin-right: 10px;
+      border-radius: 20px;
+      &:hover {
+        background-color: bisque;
+      }
+    }
+  }
+}

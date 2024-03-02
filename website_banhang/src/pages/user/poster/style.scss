@@ -1,0 +1,18 @@
+.poster {
+  .poster_left {
+    margin-top: 20px;
+    img {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .poster_left_hd {
+      display: flex;
+      img {
+        width: 50%;
+      }
+    }
+    p {
+      margin-top: 20px;
+    }
+  }
+}

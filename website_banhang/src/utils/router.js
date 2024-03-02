@@ -3,5 +3,7 @@ export const ROUTERS = {
     HOME: "",
     PROFILE: "profile",
     PRODUCTS: "/san-pham",
+    POSTER: "/bai-viet",
+    CONTACT: "/lien-he",
   },
 };
